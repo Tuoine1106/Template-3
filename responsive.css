@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+  /* CSS Header */
+
+  .double_container .double_header ul li,
+  .double_container .double_header button {
+    display: none;
+  }
+
+  .double_container .double_header i {
+    color: white;
+    padding: 8px 4.88px 9px 5px;
+    align-items: center;
+    justify-content: center;
+    width: 27px;
+    height: 27px;
+    background-color: #000;
+    border-radius: 20px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 418px) {
+}

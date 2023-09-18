@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,400;0,600;1,400;1,600&family=Work+Sans:ital,wght@0,500;0,600;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.double_container {
+}
+
+/* CSS Header */
+
+.double_container .double_header {
+  padding: 17px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 96px;
+  width: 100vw;
+}
+
+.double_container .double_header h3 {
+  width: 130px;
+  height: 27px;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-family: "Kulim Park", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+}
+
+.double_container .double_header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.double_container .double_header ul li {
+  margin-right: 24px;
+  color: #000;
+  text-align: right;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+
+}
+
+.double_container .double_header button {
+  width: 114px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: #000;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.double_container .double_header button p {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.double_container .double_header i {
+    display: none;
+}
