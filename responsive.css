@@ -232,27 +232,29 @@
   }
 
   /* Responsive Footer */
+  .double_container div.double_footer {
+    padding: 40px 22px;
+  }
+
   .double_container .double_footer h3.double_footer-title {
     margin-bottom: 20px;
   }
 
-  .double_container .double_footer .double_footer-item div.double_footer-list {
-    flex: 1;
+  .double_container .double_footer .double_footer-item div.double_footer-line {
+    flex-basis: 60%;
   }
-  
+
   .double_container .double_footer .double_footer-item div.double_footer-sub {
-    flex: 1.5;
-    position: relative;
-    bottom: 35px;
+    flex-basis: 30%;
   }
 
   .double_container
-  .double_footer
-  .double_footer-item
-  .double_footer-sub
-  h4.double_footer-sub-h4 {
-  margin-bottom: 24px;
-}
+    .double_footer
+    .double_footer-item
+    .double_footer-sub
+    h4.double_footer-sub-h4 {
+    margin-bottom: 24px;
+  }
 }
 
 @media screen and (max-width: 418px) {
@@ -405,12 +407,59 @@
     width: 100%;
     text-align: center;
   }
-  .double_container .double_footer div.double_footer-item {
-    display: flex;
-    flex-wrap: wrap;
+
+  .double_container .double_footer .double_footer-item {
+    flex-direction: column;
   }
 
-  .double_container .double_footer .double_footer-item div.double_footer-list {
-    width: 1000%;
+  .double_container .double_footer .double_footer-item div.double_footer-line {
+    flex-basis: 100%;
+    margin-bottom: 25px;
+  }
+
+  .double_container .double_footer .double_footer-item div.double_footer-sub {
+    flex-basis: 100%;
+  }
+
+  .double_container
+    .double_footer
+    .double_footer-item
+    .double_footer-sub
+    h4.double_footer-sub-h4 {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .double_container
+    .double_footer
+    .double_footer-item
+    .double_footer-sub
+    p.double_footer-sub-p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .double_container
+    .double_footer
+    .double_footer-item
+    .double_footer-line
+    div.double_footer-list {
+    text-align: center;
+  }
+
+  .double_container div.double_footer {
+    padding: 50px 30px;
+  }
+
+  .double_container .double_footer p.double_footer-tm {
+    display: block;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 8.218px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 8.805px; /* 107.143% */
+    letter-spacing: -0.147px;
+    text-transform: uppercase;
   }
 }

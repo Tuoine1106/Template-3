@@ -489,6 +489,10 @@
   padding: 45px 32px;
 }
 
+.double_container .double_footer .double_footer-tm {
+  display: none;
+}
+
 .double_container .double_footer .double_footer-title {
   color: #fff;
   font-family: "Kulim Park", sans-serif;
@@ -504,17 +508,20 @@
   justify-content: space-between;
 }
 
-.double_container .double_footer .double_footer-item .double_footer-list {
-  flex: 2;
+.double_container .double_footer .double_footer-item .double_footer-line {
+  flex-basis: 55%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .double_container .double_footer .double_footer-item .double_footer-sub {
-  flex: 1.2;
+  flex-basis: 25%;
 }
 
 .double_container
   .double_footer
   .double_footer-item
+  .double_footer-line
   .double_footer-list
   .double_footer-list-h4 {
   color: #fff;
@@ -530,6 +537,7 @@
 .double_container
   .double_footer
   .double_footer-item
+  .double_footer-line
   .double_footer-list
   .double_footer-list-ul {
   list-style: none;
@@ -538,6 +546,7 @@
 .double_container
   .double_footer
   .double_footer-item
+  .double_footer-line
   .double_footer-list
   .double_footer-list-ul
   .double_footer-list-ul-li {
